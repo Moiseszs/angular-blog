@@ -1,0 +1,35 @@
+main{
+  margin-top: 30px;
+}
+
+h1{
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.content{
+  display: grid;
+  padding-left: 30px;
+  gap: 1rem;
+  grid-template-areas:
+            "b b a"
+            "b b c"
+            "b b c";
+}
+
+.highlight{
+  grid-area: a;
+}
+
+.ad{
+  grid-area: b;
+}
+
+
+
+.side-card{
+  grid-area: c;
+  background-position: bottom;
+}
+
+
